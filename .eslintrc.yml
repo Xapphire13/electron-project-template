@@ -39,6 +39,7 @@ rules:
         - "**/*.spec.tsx"
         - "**/*.stories.ts"
         - "**/*.stories.tsx"
+        - "**/*.config.js"
   react/jsx-one-expression-per-line: off
   react/jsx-curly-newline: off
   no-plusplus: off
