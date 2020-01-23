@@ -1,12 +1,13 @@
-import { app, BrowserWindow } from "electron";
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { app, BrowserWindow } from 'electron';
 
 function createWindow() {
-  let win = new BrowserWindow({
+  const win = new BrowserWindow({
     width: 800,
-    height: 600,
-  })
+    height: 600
+  });
 
-  win.loadFile('index.html')
+  win.loadFile('index.html');
 }
 
-app.on("ready", createWindow);
+app.on('ready', createWindow);
