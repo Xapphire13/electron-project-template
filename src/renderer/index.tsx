@@ -13,6 +13,9 @@ document.body.style.margin = '0';
 document.body.style.width = '100%';
 document.body.style.height = '100%';
 document.body.style.position = 'relative';
+reactRoot.style.width = '100%';
+reactRoot.style.height = '100%';
+reactRoot.style.position = 'relative';
 
 document.body.appendChild(reactRoot);
 
